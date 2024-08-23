@@ -25,3 +25,8 @@ async function connectToDatabase() {
 }
 
 export { client, connectToDatabase };
+
+// async function main() {
+//   await connectToDatabase();
+//}
+//main().catch(console.error);
